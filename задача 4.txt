@@ -1,0 +1,13 @@
+Console.Clear();
+Console.Write("введите числа");
+int number1 = Convert.ToInt32(Console.ReadLine());
+int number2 = Convert.ToInt32(Console.ReadLine());
+int number3 = Convert.ToInt32(Console.ReadLine());
+int Mmax = number1;
+
+if (Mmax < number2)
+  Mmax = number2;
+if (Mmax<number3)
+   Mmax = number3;
+
+Console.WriteLine("ваш ответ"+Mmax);
